@@ -38,3 +38,8 @@ type DeleteOpeningResponse struct {
 	Message string `json: "message"`
 	Data    schemas.OpeningResponse
 }
+
+type ShowOpeningResponse struct {
+	Message string `json: "message"`
+	Data    schemas.OpeningResponse
+}
